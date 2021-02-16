@@ -7,7 +7,20 @@ h1 {
 ul {
 	display: flex;
 	flex-direction: row;
-	li {
-		color: green;
-	}
+}
+li:first-child {
+	border: 1px solid blue;
+    padding: 60px;
+    background-color: #87CEFA;
+}
+li:nth-child(2) {
+	border: 1px solid blue;
+    padding: 60px;
+    margin: 0 20px;
+    background-color: #FFA07A;
+}
+li:last-child {
+	border: 1px solid blue;
+    padding: 60px;
+    background-color: #98FB98;
 }
