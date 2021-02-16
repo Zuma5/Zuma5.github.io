@@ -1,3 +1,13 @@
+* {
+	list-style: none
+}
 h1 {
 	color: pink;
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	li {
+		color: green;
+	}
 }
