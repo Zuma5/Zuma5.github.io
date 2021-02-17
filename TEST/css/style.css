@@ -10,17 +10,19 @@ ul {
 }
 li:first-child {
 	border: 1px solid blue;
+	margin-right: 20px;
     padding: 60px;
     background-color: #87CEFA;
 }
 li:nth-child(2) {
 	border: 1px solid blue;
+	margin: 0 20px;
     padding: 60px;
-    margin: 0 20px;
     background-color: #FFA07A;
 }
 li:last-child {
 	border: 1px solid blue;
+	margin-left: 20px;
     padding: 60px;
     background-color: #98FB98;
 }
