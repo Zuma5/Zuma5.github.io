@@ -1,3 +1,7 @@
 $(document).ready (() => {
-	$('.middle').hide();
+	$('button').on('click' , () => {
+		$('.first').toggle();
+		$('.middle').fadeToggle();
+		$('.last').slideToggle();
+	});
 });
